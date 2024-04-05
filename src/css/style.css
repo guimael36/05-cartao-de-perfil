@@ -1,0 +1,68 @@
+:root {
+    --background-color: hsl(185, 75%, 39%);
+    --text-color: hsl(227, 10%, 46%);
+}
+
+html {
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 18px;
+}
+
+main {
+    min-height: 100vh;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    height: 400px;
+    width: 350px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+img {
+    border-radius: 100px;
+    height: 128px;
+    width: 128px;
+    margin-top: 25px;
+}
+
+.informacoes {
+    margin-top: 25px;
+}
+
+.nome {
+    font-weight: 800;
+}
+
+.idade {
+    color: var(--text-color);
+}
+
+.cidade {
+    margin-top: 30px;
+    color: var(--text-color);
+}
+
+hr {
+    margin-top: 35px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    list-style: none;
+}
+
+.numeros {
+    font-weight: 800;
+}
+
+.tipo-numeros {
+    color: var(--text-color);
+}
